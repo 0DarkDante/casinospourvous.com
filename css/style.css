@@ -93,12 +93,13 @@ h1 {
 
 .hero-img img {
   width: 100%;
-  height: auto;
+  max-height: 300px;
+  /* або 250px, 200px – підбери сам */
+  object-fit: cover;
   display: block;
   border-radius: 12px;
   margin-top: 20px;
 }
-
 .hero-img .on-image {
   position: absolute;
   bottom: 20px;
